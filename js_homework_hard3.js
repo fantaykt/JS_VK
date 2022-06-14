@@ -1,13 +1,14 @@
 /*
 Преобразовать 2* таким образом, чтобы значение '2' (строка в которой лежит ТОЛЬКО ЦИФРА) пропускалось, преобразовываясь в number */ 
 
+var age_2 = 18
+var age_3 = 60
 
-
-function showMessage(age) {
-    if (parseInt(age) || typeof(age)=='number') {   //если строка цифры или тип age number
-        if (age < 18) {console.log("You don't have access cause your age is " + age + ". It's less then 60")} 
-        else if ((age>=18&age<60)) {console.log("Welcome  !")} 
-        else if (age>60) {console.log("Keep calm and look Culture channel")}
+function showMessage(age_1) {
+    if (parseInt(age_1) || typeof(age_1)=='number') {   //если строка цифры или тип age number
+        if (age_1 < age_2) {console.log("You don't have access cause your age is " + age_1 + ". It's less then "+age_2)} 
+        else if ((age_1>=age_2&age_1<age_3)) {console.log("Welcome!")} 
+        else if (age_1>age_3) {console.log("Keep calm and look Culture channel")}
         else {console.log("Technical work")} }
     else {console.log("Error  - not number")}
 
@@ -15,5 +16,5 @@ function showMessage(age) {
 showMessage(17);
 showMessage(18);
 showMessage(61);
-showMessage("2");
+showMessage("25");
 showMessage("test");
