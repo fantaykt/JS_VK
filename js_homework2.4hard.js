@@ -9,6 +9,4 @@ function isPalindrom(word){
     
 isPalindrom("abba")
 isPalindrom("Abba")
-isPalindrom("test")
-
-    
+isPalindrom("abba abba abbaa")
