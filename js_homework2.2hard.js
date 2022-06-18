@@ -1,4 +1,4 @@
 function printSmile(stroka, numberOfRows){
     for (let i = 1 ; i <=numberOfRows ; i++ ) { console.log(stroka.repeat(i))};
     }
-    printSmile(":)", 5)
+    printSmile(2, 5)
